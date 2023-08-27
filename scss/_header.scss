@@ -1,0 +1,23 @@
+.menu li{
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0%;
+    margin-top: 10px;
+}
+.menu{
+    text-align: center;
+    background-color:black;
+    color:white;
+    width: 100%;
+    
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:aqua;
+    padding: 30px;
+}
+.menu li a:hover{
+    background-color: white;
+    color:black;
+}
