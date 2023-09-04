@@ -6,24 +6,42 @@
 }
 @import "header";
 @import "footer";
+@import "variables";
 .centrado{
     text-align: center;
     margin: 1rem;
 }
 h1{
     font-size: 36px;
+    font-weight: 500;
+    color: $color_violeta;
 }
 h2{
     font-size: 32px;
+    font-weight: 500;
+    color: $color_verde;
+}
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: $color_azul;
 }
 p{
-    font-size: 18px;
+    font-size: 20px;
 }
 .lista{
     text-align:left;
     font-size:20px;
     display: inline-block;
     padding: 1rem;
+    list-style-type:"✅ ";
+}
+.sublista{
+    text-align:left;
+    font-size:20px;
+    display: inline-block;
+    padding: 1rem;
+    list-style-type:"👉 ";
 }
 .subir{
     position: fixed;
@@ -47,6 +65,7 @@ p{
 }
 .sec_tutoriales{
     text-align: center;
+    padding: 1rem;
 }
 .tutoriales a{
     background-color: black;
@@ -67,7 +86,12 @@ p{
     text-align: justify;
     margin: 1rem;
 }
-.contacto_link{
-    display: flex;
-    justify-content: center;
+.enlace{
+    text-decoration: none;
+    color: $color_verde;
 }
+p{
+    padding: 1rem;
+}
+
+@import "responsive";

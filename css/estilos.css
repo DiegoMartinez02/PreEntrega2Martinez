@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0%;
   margin: 0%;
@@ -12,14 +13,17 @@
 
 .menu {
   text-align: center;
-  background-color: black;
+  background-color: #e0e0e0;
   color: white;
   width: 100%; }
+
+.icono {
+  color: black; }
 
 .menu li a {
   text-decoration: none;
   font-size: 20px;
-  color: aqua;
+  color: black;
   padding: 30px; }
 
 .menu li a:hover {
@@ -31,7 +35,7 @@ footer section {
   flex-direction: row;
   text-align: justify;
   justify-content: space-around;
-  background-color: skyblue;
+  background-color: #e0e0e0;
   padding: 1rem; }
 
 .centrado {
@@ -39,19 +43,36 @@ footer section {
   margin: 1rem; }
 
 h1 {
-  font-size: 36px; }
+  font-size: 36px;
+  font-weight: 500;
+  color: #7E57C2; }
 
 h2 {
-  font-size: 32px; }
+  font-size: 32px;
+  font-weight: 500;
+  color: #33A843; }
+
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #046BD2; }
 
 p {
-  font-size: 18px; }
+  font-size: 20px; }
 
 .lista {
   text-align: left;
   font-size: 20px;
   display: inline-block;
-  padding: 1rem; }
+  padding: 1rem;
+  list-style-type: "✅ "; }
+
+.sublista {
+  text-align: left;
+  font-size: 20px;
+  display: inline-block;
+  padding: 1rem;
+  list-style-type: "👉 "; }
 
 .subir {
   position: fixed;
@@ -74,7 +95,8 @@ p {
   display: inline-block; }
 
 .sec_tutoriales {
-  text-align: center; }
+  text-align: center;
+  padding: 1rem; }
 
 .tutoriales a {
   background-color: black;
@@ -95,6 +117,23 @@ p {
   text-align: justify;
   margin: 1rem; }
 
-.contacto_link {
-  display: flex;
-  justify-content: center; }
+.enlace {
+  text-decoration: none;
+  color: #33A843; }
+
+p {
+  padding: 1rem; }
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 95%;
+    height: 95%; }
+  .sec_tutoriales {
+    padding: 0;
+    padding-bottom: 1rem; }
+  .tutoriales_cont {
+    width: 330px;
+    height: 330px; }
+  .tutoriales a:hover {
+    font-size: 16px;
+    margin: 0; } }

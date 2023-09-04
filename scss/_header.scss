@@ -1,3 +1,4 @@
+@import "variables";
 .menu li{
     display: inline-block;
     padding: 20px;
@@ -6,15 +7,18 @@
 }
 .menu{
     text-align: center;
-    background-color:black;
+    background-color: $color_gris;
     color:white;
     width: 100%;
     
 }
+.icono{
+    color:black;
+}
 .menu li a{
     text-decoration: none;
     font-size: 20px;
-    color:aqua;
+    color: black;
     padding: 30px;
 }
 .menu li a:hover{

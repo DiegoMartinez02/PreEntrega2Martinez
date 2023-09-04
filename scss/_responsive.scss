@@ -1,0 +1,18 @@
+@media only screen and (max-width: 480px){
+    img{
+        width: 95%;
+        height: 95%;
+    }
+    .sec_tutoriales{
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+    .tutoriales_cont{
+        width: 330px;
+        height: 330px;
+    }
+    .tutoriales a:hover{
+        font-size: 16px;
+        margin: 0;
+    }
+}
